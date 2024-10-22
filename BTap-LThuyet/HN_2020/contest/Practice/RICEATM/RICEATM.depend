@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1606566998 source:d:\hn_2020\26.11.2020\practice\riceatm\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
+1606579164 source:d:\hn_2020\contest\practice\riceatm\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
