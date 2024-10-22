@@ -1,0 +1,1 @@
+{"name":"Local: TPLT_manh","url":"d:\\Book\\BTap-LThuyet\\OnTap_basic\\TPLT_manh.cpp","tests":[{"id":1676980789223,"input":"3 2\n1 2\n2 3\n","output":"3"},{"id":1676980793703,"input":"3 3\n1 2\n2 3\n3 1\n","output":"1"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\Book\\BTap-LThuyet\\OnTap_basic\\TPLT_manh.cpp","group":"local","local":true}
