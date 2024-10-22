@@ -1,0 +1,56 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{vietnam}
+\usepackage{parskip}
+\usepackage{geometry}
+
+\geometry{ left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm }
+
+\begin{document}
+
+\textbf{Fox} \\
+
+Fox Ciel sắp xuất bản một bài báo về FOCS (Hệ thống máy tính do Foxes vận hành, phát âm: "Fox"). Cô nghe được tin đồn: danh sách tác giả trên báo luôn được sắp xếp theo thứ tự từ điển.
+
+Sau khi kiểm tra một số ví dụ, cô phát hiện ra rằng đôi khi điều đó không đúng. Trên một số bài báo, tên tác giả không được sắp xếp theo thứ tự từ điển theo nghĩa thông thường. Nhưng điều luôn đúng là sau khi sửa đổi thứ tự các chữ cái trong bảng chữ cái, thứ tự các tác giả sẽ trở thành từ điển!
+
+Cô ấy muốn biết liệu có tồn tại một thứ tự các chữ cái trong bảng chữ cái Latinh sao cho các tên trên bài báo cô ấy đang nộp tuân theo thứ tự từ điển hay không. Nếu vậy, bạn nên tìm hiểu bất kỳ thứ tự như vậy.
+
+Thứ tự từ điển được xác định như sau. Khi so sánh $s$ và $t$, đầu tiên chúng ta tìm vị trí ngoài cùng bên trái 
+với các ký tự khác nhau: $s_i \neq t_i$. Nếu không có vị trí như vậy (tức là $s$ là tiền tố của $t$ hoặc ngược lại) thì 
+chuỗi ngắn nhất sẽ ít hơn. Ngược lại, chúng ta so sánh các ký tự $s_i$ và $t_i$ theo thứ tự của chúng trong bảng chữ cái.
+
+\textbf{Dữ liệu:} 
+\begin{itemize}
+    \item Dòng đầu tiên chứa số nguyên $n$ ($1 \le n \le 100$): số lượng tên.
+    \item Mỗi dòng trong số $n$ dòng tiếp theo chứa một chuỗi $name_i$ ($1 \le |name_i| \le 100$), tên thứ $i$. 
+    Mỗi tên chỉ chứa các chữ cái Latinh viết thường. Tất cả các tên đều khác nhau.
+\end{itemize}
+
+\textbf{Kết quả:} 
+\begin{itemize}
+    \item Nếu tồn tại thứ tự các chữ cái mà các tên đã cho được sắp xếp theo từ điển, 
+    hãy xuất bất kỳ thứ tự nào như hoán vị các ký tự $a \rightarrow z$ (tức là đầu tiên xuất ra chữ cái đầu tiên của bảng chữ cái đã sửa đổi, sau đó là chữ cái thứ hai, v.v. ).
+\end{itemize}
+Nếu không thì xuất ra một từ "Impossible".
+% \textbf{Ràng buộc:}
+% \begin{itemize}
+%     \item $2 \le n \le 10^5$
+%     \item $1 \le m \le 2 \cdot 10^5$
+%     \item $1 \le a,b \le n$
+% \end{itemize} 
+
+\begin{tabular}{|p{0.5\linewidth}|p{0.5\linewidth}|}
+    \hline 
+        \multicolumn{1}{|p{0.5\linewidth}|}{\centering \textit{fox.inp}}
+        & \multicolumn{1}{|p{0.5\linewidth}|}{\centering \textit{fox.out}} \\
+    \hline
+    3\newline
+    rivest\newline
+    shamir\newline
+    adleman\newline
+    & bcdefghijklmnopqrsatuvwxyz\\
+    \hline 
+\end{tabular}
+
+\end{document}

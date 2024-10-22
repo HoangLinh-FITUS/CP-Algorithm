@@ -1,0 +1,62 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{vietnam}
+\usepackage{parskip}
+\usepackage{geometry}
+
+\geometry{ left=2.54cm, right=2.54cm, top=2.54cm, bottom=2.54cm }
+
+\begin{document}
+
+\textbf{Sắp Bò} \\
+
+Trong một nông trại yên bình, có một đàn bò $N$ con vô cùng thông minh, mỗi con đều mang một số hiệu riêng từ $1$ đến $N$. 
+Ban đầu, các thành viên của đàn bò này phân tán ngẫu nhiên ở các vị trí khác nhau trong chuồng. 
+Tuy nhiên, để tạo ra sự trật tự, đàn bò đã tìm ra một cách sắp xếp độc đáo: chúng sẽ sử dụng hệ thống $M$ lỗ sâu bí ẩn để di chuyển.
+
+Mỗi lỗ sâu, được đánh số từ $1$ đến $M$, là một đường hầm kỳ diệu nối liền hai vị trí bất kỳ trong chuồng. 
+Điều thú vị là, các lỗ sâu này có kích thước khác nhau, được đo bằng chiều rộng $w_i$. 
+Hai con bò ở hai đầu của một lỗ sâu có thể đổi chỗ cho nhau một cách nhanh chóng.
+
+Mục tiêu của đàn bò là sắp xếp lại đội hình sao cho mỗi con bò đứng đúng vị trí của mình, tức là con bò số $i$ sẽ đứng ở vị trí số $i$. 
+Tuy nhiên, để thực hiện điều này, chúng phải lựa chọn những lỗ sâu có kích thước phù hợp để tránh bị "kẹt".
+
+\textbf{Yêu cầu:} Tìm chiều rộng nhỏ nhất của lỗ sâu mà lũ bò phải chui qua.
+
+\textbf{Đảm bảo:} Luôn có cách sắp xếp hợp lệ.
+
+\textbf{Dữ liệu:} 
+\begin{itemize}
+    \item Dòng đầu tiên chứa hai số nguyên $N$ và $M$.
+    \item Dòng thứ hai gồm $N$ số nguyên $p_1, p_2, \dots, p_N$ thể hiện vị trí ban đầu của từng con bò ($p$ là hoán vị của $1$ đến $N$).
+    \item $M$ dòng tiếp theo chứa ba số nguyên $a_i, b_i$ và $w_i$ thể hiện thông tin của lỗ sâu thứ $i$.
+\end{itemize}
+
+\textbf{Kết quả:} 
+\begin{itemize}
+    \item Gồm một số nguyên duy nhất: Chiều rộng nhỏ nhất của lỗ sâu mà lũ bò phải chui qua. Nếu không cần dùng lỗ sâu, xuất ra $-1$.
+\end{itemize}
+
+\textbf{Ràng buộc:}
+\begin{itemize}
+    \item $1 \le N,M \le 10^5$
+    \item $1 \le a_i,b_i \le N$ ($a_i \neq b_i$)
+    \item $1 \le w_i \le 10^9$
+\end{itemize} 
+
+\begin{tabular}{|p{0.5\linewidth}|p{0.5\linewidth}|}
+    \hline 
+        \multicolumn{1}{|p{0.5\linewidth}|}{\centering \textit{wormsort.inp}}
+        & \multicolumn{1}{|p{0.5\linewidth}|}{\centering \textit{wormsort.out}} \\
+    \hline
+    4 4 \newline 
+    3 2 1 4\newline
+    1 2 9\newline
+    1 3 7\newline
+    2 3 10\newline
+    2 4 3\newline
+    & 9\\
+    \hline 
+\end{tabular}
+
+\end{document}
