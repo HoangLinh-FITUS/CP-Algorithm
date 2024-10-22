@@ -1,0 +1,1 @@
+{"name":"Local: Static_Range_Sum_Queries","url":"d:\\TrainningCP\\cses\\Range Queries\\Static_Range_Sum_Queries.cpp","tests":[{"id":1696868810100,"input":"8 4\n3 2 4 5 1 1 5 3\n2 4\n5 6\n1 8\n3 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\TrainningCP\\cses\\Range Queries\\Static_Range_Sum_Queries.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Message_Route","url":"d:\\TrainningCP\\cses\\Graph Algorithms\\Message_Route.cpp","tests":[{"id":1696777042042,"input":"5 5\n1 2\n1 3\n1 4\n2 3\n5 4\n","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\TrainningCP\\cses\\Graph Algorithms\\Message_Route.cpp","group":"local","local":true}

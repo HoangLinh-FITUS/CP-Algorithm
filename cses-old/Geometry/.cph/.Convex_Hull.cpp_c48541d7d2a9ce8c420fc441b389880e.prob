@@ -1,0 +1,1 @@
+{"name":"Local: Convex_Hull","url":"d:\\TrainningCP\\cses\\Geometry\\Convex_Hull.cpp","tests":[{"id":1697203655004,"input":"6\n2 1\n2 5\n3 3\n4 3\n4 4\n6 3","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\TrainningCP\\cses\\Geometry\\Convex_Hull.cpp","group":"local","local":true}

@@ -1,0 +1,1 @@
+{"name":"Local: Longest_Flight_Route","url":"d:\\TrainningCP\\cses\\Graph Algorithms\\Longest_Flight_Route.cpp","tests":[{"id":1696843356631,"input":"5 5\n1 2\n2 5\n1 3\n3 4\n4 5","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\TrainningCP\\cses\\Graph Algorithms\\Longest_Flight_Route.cpp","group":"local","local":true}
