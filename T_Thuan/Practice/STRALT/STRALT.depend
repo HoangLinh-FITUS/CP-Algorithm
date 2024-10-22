@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1605096447 source:d:\trai_he_bl_2020\practice\stralt\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+

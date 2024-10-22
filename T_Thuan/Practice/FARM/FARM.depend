@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1605194474 source:d:\trai_he_bl_2020\practice\farm\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
