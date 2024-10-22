@@ -1,0 +1,9 @@
+uses crt;
+var n:longint;
+begin
+clrscr;
+randomize;
+       n:=random(2);
+       writeln(n);
+readln;
+end.

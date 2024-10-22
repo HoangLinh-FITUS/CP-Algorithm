@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1602171113 source:d:\pascal\string\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+

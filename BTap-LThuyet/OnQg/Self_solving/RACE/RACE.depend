@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1603183016 source:d:\task_in_school\race\main.cpp
+	<bits/stdc++.h>
+	<ext/pb_ds/assoc_container.hpp>
+	<ext/pb_ds/tree_policy.hpp>
+
